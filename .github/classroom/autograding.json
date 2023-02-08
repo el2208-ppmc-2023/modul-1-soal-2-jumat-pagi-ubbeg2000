@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "3\r\nL A 123456\r\nM B 345678\r\nR C 987654",
+      "output": "0 0 1 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 1 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 1 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 142654321\r\nTiket 2: 250876543\r\nTiket 3: 360456789",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make main",
+      "run": "./main",
+      "input": "4  \r\nL C 823742\r\nL C 901223\r\nL C 910234\r\nL C 129832",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 1 1 0 0 0 0 0 0\r\n0 1 1 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 162247328\r\nTiket 2: 165322109\r\nTiket 3: 161432019\r\nTiket 4: 164238921",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make main",
+      "run": "./main",
+      "input": "6\r\nM B 289323\r\nR A 182323\r\nR A 569434\r\nR A 234593\r\nM B 829323\r\nR A 543421",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 0 0 0 1 1 0\r\n0 0 0 0 0 0 1 1 0\r\n0 0 0 1 1 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 250323982\r\nTiket 2: 340323281\r\nTiket 3: 343434965\r\nTiket 4: 341395432\r\nTiket 5: 251323928\r\nTiket 6: 344124345",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make main",
+      "run": "./main",
+      "input": "11\r\nM B 189282   \r\nR A 283232\r\nR A 263722\r\nR A 821932\r\nR A 798234\r\nM B 289382\r\nM B 892343\r\nM B 892839   \r\nR A 734523\r\nM B 898234\r\nM B 122342",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 0 0 0 1 1 1\r\n0 0 0 0 0 0 1 1 0\r\n0 0 0 1 1 1 0 0 0\r\n0 0 0 1 1 1 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 250282981\r\nTiket 2: 340232382\r\nTiket 3: 343227362\r\nTiket 4: 341239128\r\nTiket 5: 344432897\r\nTiket 6: 251283982\r\nTiket 7: 252343298\r\nTiket 8: 253938298\r\nTiket 9: 342325437\r\nTiket 10: 254432898\r\nTiket 11: 255243221",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make main",
+      "run": "./main",
+      "input": "1\r\nL B 375392",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 152293573",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make main",
+      "run": "./main",
+      "input": "2\r\nR C 489453 \r\nR C 129323",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 1 0 0\r\n0 0 0 0 0 0 1 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 360354984\r\nTiket 2: 363323921",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make main",
+      "run": "./main",
+      "input": "4\r\nL C 383942\r\nL C 945323\r\nM A 129042\r\nM A 382345",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 0 1 1 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 162249383\r\nTiket 2: 165323549\r\nTiket 3: 240240921\r\nTiket 4: 241543283",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5\r\nL A 128342\r\nM B 290133 \r\nL A 392453\r\nL C 284343\r\nR C 394302",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 1 0 0 0 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\n0 0 0 1 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 1 0 0 0 1 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 142243821\r\nTiket 2: 250331092\r\nTiket 3: 145354293\r\nTiket 4: 162343482\r\nTiket 5: 360203493",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make main",
+      "run": "./main",
+      "input": "7 \r\nL A 238294 \r\nM A 291342\r\nR A 120323  \r\nL B 283234\r\nM B 123452\r\nR B 485343\r\nL C 293234",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 1 1 0 0 1 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 1 1 0 0 1 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 142492832\r\nTiket 2: 240243192\r\nTiket 3: 340323021\r\nTiket 4: 152432382\r\nTiket 5: 250254321\r\nTiket 6: 350343584\r\nTiket 7: 162432392",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make main",
+      "run": "./main",
+      "input": "5\r\nL A 754345\r\nM A 283929\r\nM A 453345\r\nM A 568394\r\nL A 238493",
+      "output": "Konfigurasi akhir tempat duduk konser adalah:\r\n0 0 1 1 1 1 0 0 0\r\n0 0 1 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\n0 0 0 0 0 0 0 0 0\r\nKode unik untuk setiap tiket adalah:\r\nTiket 1: 142543457\r\nTiket 2: 240929382\r\nTiket 3: 241543354\r\nTiket 4: 242493865\r\nTiket 5: 145394832",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
